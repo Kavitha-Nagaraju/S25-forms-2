@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <lagend>Personal Details</lagend>
+        <div>
+            <label>First Name</label>
+            <input type="text"/>
+            </div>
+            <div>
+            <label>Last Name</label>
+            <input type="text"/>
+            </div>
+            <div>
+            <label>Date of Birth</label>
+            <input type="datetime-local">
+            </div>
+            <div>
+            <label>Mobile</label>
+            <input type="number"/>
+            </div>
+            <div>
+            <label>Telephone</label>
+            <input type="tel"/>
+            </div>
+            <div>
+                <label>Hidden</label>
+                <input type="hidden"/>
+            </div>
+            <div>
+            <label>Address</label>
+            <input />
+            </div>
+            <div>
+            <label>Language Known</label>
+            <input type="checkbox" multiple/>
+            <label >Telugu</label>
+            <input type="range"/>
+            <input type="checkbox" multiple/>
+            <label>English</label>
+            <input type="range"/>
+            <input type="checkbox" multiple/>
+            <label>Hindhi</label>
+            <input type="range"/>
+            </div>
+            <div>
+            <label>Gender</label>
+            <input type="radio" name="gender"/>
+            <label >Male</label>
+            <input type="radio" name="gender"/>
+            <label>Female</label>
+            </div>
+            <div>
+                <label>Marital Status</label>
+                <input type="radio" name="ms"/>
+                <label>Married</label>
+                <input type="radio" name="ms"/>
+                <label>Unmarried</label>
+            </div>
+            <div>
+                <label>Favourite Color</label>
+                <input type="color"/>
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Educational Details</legend>
+            <div>
+                <label>Heigher Education</label>
+                <select>
+                <option>MSC</option>
+                <option>BE</option>
+                <optgroup label="B.Tech">
+                <optgroup label="CSE">
+                    <option>CSE-AIML</option>
+                    <option>CES-DS</option>
+                </optgroup>
+                <option>ECE</option>
+                <option>EEE</option>
+                <option>MECHANICAL</option>
+                <option>CIVIL</option>
+                </optgroup>
+                <option>B.Pharmacy</option>
+                </select>
+            </div>
+            <div>
+                <label>Heigher Education starting month</label>
+                <input type="date"/>
+            </div>
+            <div>
+                <label>Heigher Education Ending Month</label>
+                <input type="date"/>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email"/>
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password"/>
+            </div>
+            <div>
+                <label>Resume</label>
+                <input type="file"/>
+            </div>
+            <div>
+                <label>Hobbies</label>
+                <input list="hobbies" />
+                <datalist id="hobbies">
+                <option>Watching Movies</option>
+                <option >listening Music</option>
+                <option>Playing Chess</option>
+                </datalist>
+            </div>
+            <div>
+                <label>Social Media Profile</label>
+                <input type="url"/>
+            </div>
+            <div>
+                <label>Photo and coverletter</label>
+                <input type="file" multiple/>
+            </div>
+            <div>
+                <label>Submission month</label>
+                <input type="month"/>
+            </div>
+            <div>
+                <label>Submission Week</label>
+                <input type="week"/>
+            </div>
+            <div>
+                <label>Submission Time</label>
+                <input type="time"/>
+            </div>
+            <div>
+                <label>Description</label>
+                <textarea></textarea>
+            </div>
+            <div>
+                <input type="image" src="./images/submit.jpg" width="50px;" height="50px;"/>
+                <button type="reset">Refresh</button>
+                <button type="menu">submit</button>
+            </div>
+            
+           
+        </fieldset>
+
+
+       
+    </form>
+    
+</body>
+</html>
